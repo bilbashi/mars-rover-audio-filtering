@@ -271,8 +271,6 @@ mars-rover-audio-filtering/
 └── .gitignore
 ```
 
-The audio files are not required to be stored in the GitHub repository if they are kept in Google Drive and the notebook paths are configured accordingly.
-
 ---
 
 ## Run the Project
@@ -281,24 +279,23 @@ The recommended way to view and run this project is in **Google Colab**:
 
 ### [Open Mars Rover Audio Filtering in Google Colab](https://colab.research.google.com/drive/1YELvXgNyp7uY6pKm1Ii3RU7G60pzD1Gc)
 
-> **Note:** You may need to sign in to a Google account to run the notebook. If it opens in read-only mode, select **File → Save a copy in Drive** to create an editable version.
+> **Note:** You may need to sign in to a Google account to run the notebook.
+> If it opens in read-only mode, select **File → Save a copy in Drive**
+> to create an editable version.
 
-### Audio Files
+The project uses two WAV files:
 
-The notebook mounts Google Drive and currently expects the source files at:
+- [Raw Mars recording](https://drive.google.com/file/d/1kdfntOBQjIwarmfpwXMM_yQP_TeP8477/view?usp=sharing)
+- [NASA-filtered recording](https://drive.google.com/file/d/1PVQRvvS6KUi8dDcBHdG4YTQRuN929JMF/view?usp=sharing)
 
-```text
-/content/drive/MyDrive/Colab Notebooks/dsp/CW/Sounds-of-Mars_first-sounds-raw.wav
-/content/drive/MyDrive/Colab Notebooks/dsp/CW/Sounds-of-Mars_first-sounds-filtered.wav
-```
-
-If the audio files are stored elsewhere in Google Drive, update these paths in the notebook before running the relevant cells.
+If the files are saved in a different Google Drive location, update the file
+paths in the notebook before running the relevant cells.
 
 ### GitHub Notebook
 
 The notebook can also be viewed directly on GitHub:
 
-[View the notebook on GitHub](Mars_Rover_Audio_Filtering.ipynb)
+[View the notebook on GitHub](mars_rover_audio_filtering.ipynb)
 
 GitHub is useful for reviewing the code and plots, but **Google Colab is recommended for this project because the audio playback cells are an important part of the analysis**.
 
